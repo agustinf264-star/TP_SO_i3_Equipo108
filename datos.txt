@@ -1,2 +1,3 @@
 GAMMA - Frederick Encarnacion Reyes ip:192.168.56.1 Hora: 15:00
-BETA - Agustin Fernandez - iP: 172.19.16.1 - Hora: 18:18:26
+BETA - Agustin Fernandez - iP: 172.19.16.1 - Hora: 18:18:26 
+ALFA- Tomas Coppola - IP:192.168.1.3 - hora:9.45
