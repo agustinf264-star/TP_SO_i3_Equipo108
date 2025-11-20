@@ -1,7 +1,8 @@
 Responde BETA:
  a-¿Cómo queda el máster después de estos cambios?
+Con beta.txt y los archivos de CPU.
  b-¿Beta pudo ver todos los cambios que se realizaron?
-Sí, puede.
+Puede ver casi todos excepto los cambios de otros usuarios en beta.txt.
  c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
 git pull (en la rama master), git merge (aca hay que resolver los conflictos en git y despues usar git add y git commit)
 y finalmente subir todo con git push origin master.
