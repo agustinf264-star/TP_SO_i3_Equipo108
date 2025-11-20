@@ -14,3 +14,8 @@ y finalmente subir todo con git push origin master.
 
  Responde ALFA:
  G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+ G- primero hacer el cd para ir al repositorio
+ "git checkout" para ir a la ramma
+ "echo" para modificar el archivo 
+ "cat" para ver como quedo despues de modificar
+ "git add" , " git commit -m" y "git push" para subir lo modificado 
