@@ -10,8 +10,35 @@ y finalmente subir todo con git push origin master.
 
  Responde GAMMA:
  d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+ No. Después del merge, la única rama que queda totalmente actualizada es master.
+ Las ramas individuales (la de BETA y mi rama GAMMA) quedan desactualizadas en comparación con master, a menos que se haga un:
+ git pull origin master
+ para traer los últimos cambios.
  e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+ Tuvimos conflictos porque todos los integrantes modificamos el mismo archivo datos.txt agregando información distinta.
+ git no pudo decidir automáticamente qué línea mantener y marcó las secciones en conflicto.
+ Tuvimos que resolverlos manualmente, eligiendo el contenido correcto de cada integrante y acomodando las líneas para que quede el archivo final con toda la información.
  f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+ Para modificar el archivo beta.txt y subir mis cambios, debía ejecutar:
+ # 1. Cambiar a la rama beta
+  git checkout beta
+
+  # 2. Traer los últimos cambios de la rama remota
+  git pull
+
+  # 3. Editar el archivo beta.txt agregando:
+  # - nombre y apellido
+  # - información del ifconfig
+  # - hora actual
+
+  # 4. Preparar los cambios
+  git add beta.txt
+
+  # 5. Confirmar los cambios
+  git commit -m "Gamma agrega sus datos en beta.txt"
+
+  # 6. Subir los cambios al repositorio remoto
+  git push
 
  Responde ALFA:
  G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
